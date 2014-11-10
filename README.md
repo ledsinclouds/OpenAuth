@@ -22,5 +22,12 @@ Add to composer And Install:
 	"ledsinclouds/open-auth": "dev-master"  
 	composer update
    
+Requires
+--------
 
+    "opauth/opauth": "0.4.4",
+    "opauth/google": "dev-master",
+    "opauth/twitter": "dev-master",
+    "opauth/facebook": "dev-master",
+    "opauth/github": "dev-master"
 		
