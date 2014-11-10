@@ -19,6 +19,13 @@ Using Composer
 
 Add to composer And Install:
 
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ledsinclouds/OpenAuth.git"
+        }
+    ]
+
 	"ledsinclouds/open-auth": "dev-master"  
 	composer update
    
