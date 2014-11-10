@@ -1,0 +1,20 @@
+<?php
+$settings = array(
+    'security_salt' => 'LDFmiilYf8Fyw5W10rx4W1KsVrieQCnpBzzpTBWA5vJidQKDx8pMJbmw28',
+    'Strategy' => array(
+    	'Facebook' => array(
+        	    'app_id' => '',
+            	'app_secret' => ''
+       	),
+		'Google' => array(
+        	    'client_id' => '',
+            	'client_secret' => '',
+        ),
+		'Twitter' => array(
+        	    'key' => '',
+     	      	'secret' => '',
+        	),
+    ),
+    'check_controller_enabled' => true
+);
+return array('openauth' => $settings);
