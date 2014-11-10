@@ -1,0 +1,26 @@
+{
+    "name": "ledsinclouds/open-auth",
+    "description": "Testing Module creation",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2",
+        "open-auth"
+    ],
+    "homepage": "https://github.com/ledsinclouds/OpenAuth.git",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "opauth/opauth": "0.4.4",
+        "opauth/google": "dev-master",
+        "opauth/twitter": "dev-master",
+        "opauth/facebook": "dev-master",
+        "opauth/github": "dev-master"        
+    },
+    "autoload": {
+        "psr-0": {
+            "OpenAuth\\": "src/"
+        }
+    }
+} 

@@ -1,0 +1,24 @@
+<?php if ($result) {?>
+You have logged in.
+<ul>
+    <li><a href="http://kafkadn.fr.nf/user/logout/openid/twitter">Logout with Twitter</a></li>
+    <li><a href="http://kafkadn.fr.nf/user/logout/openid/google">Logout with Google</a></li>
+    <li><a href="http://kafkadn.fr.nf/user/logout/openid/facebook">Logout with Facebook</a></li>
+</ul>
+<?php// echo $result ?>
+<?php// echo $provider ?>
+
+
+
+<?php 
+/*foreach($identity as $k => $v){
+    foreach($v as $i){
+        echo $i;
+    }
+} */
+
+?>
+
+<?php } else { ?>
+You have not logged in.
+<?php } ?>
